@@ -1,6 +1,6 @@
 <?php
 /* RUTAS DE ACCESO */
-define(	"RUTA_ACTUAL","http://local.evolution.mx/");  // URL actual del sistema
+define(	"RUTA_ACTUAL","http://local.hotel.com/");  // URL actual del sistema
 define(	"BASE_TEMPLET","templet/"); 			// Ruta donde se aloje el tema o templet
 define(	"BASE_APP","app/"); 					// Ruta de la aplicacion
 define(	"BASE_ARCHIVO","att/"); 				// Ruta a guardar los archivos 
@@ -27,8 +27,8 @@ define("IMG_RESIZING_HEIGHT",0);	// Tamaño maximo de alto a convertir, expesada
 
 /*Licencia JMY CONNECT*/
 define(	"JMY_SERVER","https://comsis.mx/api/auth/v1/jmyweb"); 
-define(	"JMY_API","010b4cd24e88198f01975a013710a900"); 
-define(	"JMY_APIKEY","70e8a5c84d2db77e73ed8973fb62e0c6"); 
+define(	"JMY_API","a8c33cc75359c326999d516e1ebc0ee7"); 
+define(	"JMY_APIKEY","b8bad0d9e727ecd0f717f9c7bf700aa3"); 
 /*Configuración JMY */
 define(	"DB_JMY_ADD_ID_D",true); //Agregar campos faltantes en la base de datos
 define(	"DB_JMY_ADD_TABLA",true); //Agregar Tablas faltantes en la base de datos
@@ -36,8 +36,8 @@ define(	"DB_JMY_ADD_TABLA",true); //Agregar Tablas faltantes en la base de datos
 define(	"DB_HO","localhost"); //servidor
 define(	"DB_US","root"); //usuario
 define(	"DB_PA",""); //contrase�a
-define(	"DB_DB","evolution"); //Base de datos
-define(	"TABLAS_EXTRAS","productos,agendarcita,perfil,servicio,personal"); //Base de datos
+define(	"DB_DB","hotel"); //Base de datos
+define(	"TABLAS_EXTRAS","agendarcita,perfil,servicio,personal"); //Base de datos
 define(	"TABLA_USUARIOS","clientes"); //Base de datos
 
 
