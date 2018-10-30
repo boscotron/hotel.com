@@ -40,18 +40,18 @@
         	<div class="col-md-7 col-md-offset-1">
             
             <div id="message-contact"></div>
-				<form method="post" action="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>assets/contact.php" id="contactform">
+				<form>
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Nombre</label>
-								<input type="text" class="form-control" id="name_contact" name="name_contact" placeholder="Ingresa tu Nombre">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Nombre"  placeholder="Ingresa tu Nombre">
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Apellido</label>
-								<input type="text" class="form-control" id="lastname_contact" name="lastname_contact" placeholder="Ingresa Apellido">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Apellido" placeholder="Ingresa Apellido">
 							</div>
 						</div>
 					</div>
@@ -60,13 +60,13 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Email</label>
-								<input type="email" id="email_contact" name="email_contact" class="form-control" placeholder="Ingresa Email">
+								<input type="email" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Email">
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Teléfono</label>
-								<input type="text" id="phone_contact" name="phone_contact" class="form-control" placeholder="Ingresa número">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Telefono" placeholder="Ingresa Telefono">
 							</div>
 						</div>
 					</div>
@@ -74,7 +74,7 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<label>Mensaje</label>
-								<textarea id="message_contact" name="message_contact" class="form-control" placeholder="Escribe tu mensaje" style="height:150px;"></textarea>
+								<textarea class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Mensaje" style="height:150px;"></textarea>
 							</div>
 						</div>
 					</div>
@@ -82,9 +82,11 @@
 						<div class="col-md-6">
                         	<div class="form-group">
                                 <label>Eres Humano</label>
-                                <input type="text" id="verify_contact" class=" form-control add_bottom_30" placeholder="Ingresa el total de: 3 + 1 =">
+                                <input type="text" id="verify_contact" class=" add_bottom_30" placeholder="Ingresa el total de: 3 + 1 =">
                             </div>
-							<input type="submit" value="Enviar" class="btn_1" id="submit-contact">
+
+							<button class="btn btn-primary jmy_web_contacto_enviar" id="contacto_contacto" data-formulario="contacto_contacto">Submit</button>
+
 						</div>
 					</div>
 				</form>               
