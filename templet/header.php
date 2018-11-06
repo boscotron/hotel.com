@@ -50,10 +50,17 @@
     <header>
     <div class="container">
         <div class="row">
-            <div class="col--md-3 col-sm-3 col-xs-3">
-                <a href="<?php echo RUTA_ACTUAL; ?>">
-                <img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/2logo_pozo_inicio.png" width="170" height="88" alt="" data-retina="true">
-                </a>
+            <div class="col--md-3 col-sm-3 col-xs-3 jmy_web_slider" data-page="header"  data-tabla="vistaweb" id="logo_topmarco" data-retina="true" data-marco="logo_topmarco" <?php 
+										  $va[] = [ "type"=>"imagen",
+											"id"=>"logo_top_img",
+											 "width"=>"170",
+											 "height"=>"88",
+											 "url"=>$this->url_templet(["return"=>true]).'img/2logo_pozo_inicio.png' ];  ?>  data-var='<?php echo json_encode($va); ?>'>
+
+                <a href="<?php $this->url_inicio(); ?>"><img alt="" title="" id="logo_top_img" src="<?php $this->pnt('logo_top_img',$this->url_templet(['return'=>true]).'images/logo.png',
+										  ["secundario"=>"header"] ); ?>"/></a>
+
+                
             </div>
             <nav class="col--md-9 col-sm-9 col-xs-9">
             <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu movil</span></a>

@@ -45,13 +45,13 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Nombre</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Nombre"  placeholder="Ingresa tu Nombre">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre"  placeholder="Ingresa tu Nombre">
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Apellido</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Apellido" placeholder="Ingresa Apellido">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Apellido" placeholder="Ingresa Apellido">
 							</div>
 						</div>
 					</div>
@@ -60,13 +60,13 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Email</label>
-								<input type="email" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Email">
+								<input type="email" class=" jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" placeholder="Ingresa Email">
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<div class="form-group">
 								<label>Teléfono</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Telefono" placeholder="Ingresa Telefono">
+								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Telefono" placeholder="Ingresa Telefono">
 							</div>
 						</div>
 					</div>
@@ -74,18 +74,18 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<label>Mensaje</label>
-								<textarea class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Mensaje" style="height:150px;"></textarea>
+								<textarea class=" jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" placeholder="Ingresa Mensaje" style="height:150px;"></textarea>
 							</div>
 						</div>
 					</div>
 					<div class="row add_bottom_30">
 						<div class="col-md-6">
-                        	<div class="form-group">
+                        	<!-- <div class="form-group">
                                 <label>Eres Humano</label>
                                 <input type="text" id="verify_contact" class=" add_bottom_30" placeholder="Ingresa el total de: 3 + 1 =">
-                            </div>
+                            </div> -->
 
-							<button class="btn btn-primary jmy_web_contacto_enviar" id="contacto_contacto" data-formulario="contacto_contacto">Submit</button>
+							<button class="btn btn-primary jmy_web_contacto_enviar" id="contacto_inicio" data-formulario="contacto_inicio">Enviar</button>
 
 						</div>
 					</div>

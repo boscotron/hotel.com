@@ -11,7 +11,7 @@
     font-size: 45px;
 ">Sitio en mantenimiento</div><div style="
     margin: 122px 0;
-"><img src="https://www.comsis.mx/assets/img/logo.png"></div><div><a href="https://comsis.mx/" style="
+"><img src="https://comsis.mx/templet/assets/img/logo.png"></div><div><a href="https://comsis.mx/" style="
     font-family: sans-serif;
     font-size:  20px;
     margin-top: 102px;
