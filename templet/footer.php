@@ -88,6 +88,8 @@
     }
 });
 </script>
+
+<?php  $this->llamar_js(); ?> 
 </body>
 </html>
 </html>
