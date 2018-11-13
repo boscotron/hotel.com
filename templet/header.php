@@ -54,14 +54,14 @@
     <header>
     <div class="container">
         <div class="row">
-            <div class="col--md-3 col-sm-3 col-xs-3 jmy_web_slider" data-page="header"  data-tabla="vistaweb" id="logo_topmarco" data-retina="true" data-marco="logo_topmarco" <?php 
+        <div class="col-md-3 col-sm-3 col-xs-3 jmy_web_slider" data-page="header"  data-tabla="vistaweb" id="logo_topmarco" data-marco="logo_topmarco" <?php 
 										  $va[] = [ "type"=>"imagen",
 											"id"=>"logo_top_img",
 											 "width"=>"205",
 											 "height"=>"98",
 											 "url"=>$this->url_templet(["return"=>true]).'img/2logo_pozo_inicio.png' ];  ?>  data-var='<?php echo json_encode($va); ?>'>
-
-                <a href="<?php $this->url_inicio(); ?>"><img alt="" title="" id="logo_top_img" src="<?php $this->pnt('logo_top_img',$this->url_templet(['return'=>true]).'images/logo.png',
+											 
+											 <a href="<?php $this->url_inicio(); ?>"><img alt="" title="" id="logo_top_img" src="<?php $this->pnt('logo_top_img',$this->url_templet(['return'=>true]).'img/2logo_pozo_inicio.png',
 										  ["secundario"=>"header"] ); ?>"/></a>
 
                 
@@ -89,6 +89,9 @@
 					</li> */?>
                     <li>
 						<a href="<?php echo RUTA_ACTUAL; ?>contacto">Contacto</a>
+                    </li>
+                    <li>
+						<a href="<?php echo RUTA_ACTUAL; ?>temazcal">TEMAZCAL</a> 
 					</li>
                 </ul> 
             </div><!-- End main-menu -->

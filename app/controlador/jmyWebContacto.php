@@ -11,9 +11,9 @@ if(is_array($datos)){
 						"A_D"=>TRUE, 
 						"GUARDAR"=>$guardar,
 					]);
-	$to      = 'juancarlos@comsis.mx';
+	$to      = 'juancarlos@@comsis.mx';
 	$subject = "Nuevo contacto" ;
-	$header = "From: noreply@templet.comsis.com\r\n"; 
+	$header = "From: noreply@hotelpozoviejo.com.mx\r\n"; 
 	$header.= "MIME-Version: 1.0\r\n"; 
 	$header.= "Content-Type: text/html; charset=utf-8\r\n"; 
 	$header.= "X-Priority: 1\r\n"; 

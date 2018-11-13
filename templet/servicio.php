@@ -69,13 +69,13 @@
 					<div class="post_info clearfix">
 						<div class="post-left">
 							<ul>
-								<li><i class="icon-calendar-empty"></i> <em>Temazcal</em></li>
+								<li><i class="icon-calendar-empty"></i> <em>SPA</em></li>
 							</ul>
 						</div>
 					</div>
 					<h2>Consientete</h2>
 					<p>
-					¿Necesitas un descanso? pregunta por nuestros servicios de spa: Temazcal y Masajes relajantes. Una excelente opción para relajarse. <br> 
+					¿Necesitas un descanso? pregunta por nuestros servicios de spa: Temazcal y Masajes relajantes. Una excelente opción para relajarse.<a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET;?>spa"> Mas informacion aquí</a> <br> 
 					</p>
 				</div><!-- end post -->			
 						

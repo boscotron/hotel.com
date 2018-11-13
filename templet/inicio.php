@@ -87,11 +87,13 @@
 	<hr>
 	
     <div class="container_styled_1">
-        <h1 class="main_title"><em></em>Bienvenido a HOTEL-RESTAURANTE POZO VIEJO <span>Comodidad y descanso. </span></h1>
-        <p class="lead styled">
-            ¿Qué te parece pasar un fin de semana, fecha especial o vacaciones con nosotros?
+        <h3 class="main_title aligncente jmy_web_div" data-page="inicio" id="bienvenida_hotel" data-editor="no">
+                <?php $this->pnt('bienvenida_hotel','Bienvenido a HOTEL-RESTAURANTE POZO VIEJO <span>Comodidad y descanso. </span> '); ?>
+        </h3>
+        <p class="lead styled jmy_web_div" data-page="inicio" id="texto_bienvenida" data-editor="no">
+                <?php $this->pnt('texto_bienvenida','¿Qué te parece pasar un fin de semana, fecha especial o vacaciones con nosotros?
 			Nuestra mayor satisfacción será poder atenderte.
-			¡Los esperamos!
+			¡Los esperamos! '); ?>
         </p>
             <div class="col-sm-6 ">
                 <div class="mosaic_container ">
