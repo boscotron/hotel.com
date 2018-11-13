@@ -11,9 +11,12 @@
 							</ul>
 						</div>
 					</div>
-					<h2>Recien casados</h2>
-					<p>
-						Cuenta con nosotros, para ese d&iacute;a tan especial, al aire libre y con los mejores detalles, o si lo prefieres en el sal&oacute;n.<br>Ven y llevemos acabo ese hermoso d&iacute;a tan esperado. 
+					<h2 class="jmy_web_div" data-page="serviciohotel" id="bodas" data-editor="no">
+                        <?php $this->pnt('bodas','Recien casados '); ?>
+                    </h2>
+					<p class="jmy_web_div" data-page="serviciohotel" id="bodas_text" data-editor="no">
+                        <?php $this->pnt('bodas_text','Cuenta con nosotros, para ese d&iacute;a tan especial, al aire libre y con los mejores detalles, o si lo prefieres en el sal&oacute;n.<br>Ven y llevemos acabo ese hermoso d&iacute;a tan esperado. '); ?>
+						 
 					</p>
 				</div><!-- end post -->
 				
@@ -22,13 +25,20 @@
 					<div class="post_info clearfix">
 						<div class="post-left">
 							<ul>
-								<li><i class="icon-calendar-empty"></i> <em>Senderismo</em></li>
+								<li><i class="icon-calendar-empty"></i> 
+                                    <em class="jmy_web_div" data-page="serviciohotel" id="caminatas_etiqueta" data-editor="no">
+                                     <?php $this->pnt('caminatas_etiqueta','Senderismo '); ?></em>
+                        </li>
 							</ul>
 						</div>
 					</div>
-					<h2>Caminatas</h2>
-					<p>
-						!! No pierdan la oportunidad de que sus hijos vivan esta magnífica experiencia!!<br> 
+					<h2 class="jmy_web_div" data-page="serviciohotel" id="caminatas_titulo" data-editor="no">
+                        <?php $this->pnt('caminatas_titulo','Caminatas '); ?>
+                    </h2>
+
+					<p class="jmy_web_div" data-page="serviciohotel" id="caminatas_text" data-editor="no">
+                        <?php $this->pnt('caminatas_text','!! No pierdan la oportunidad de que sus hijos vivan esta magnífica experiencia!!<br> '); ?></h2>
+						 
 					</p>
 				</div><!-- end post -->			
 						
