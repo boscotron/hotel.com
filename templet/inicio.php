@@ -131,9 +131,12 @@
                 </div>
                 <div class="col-md-4 col-md-offset-1">
                     <div class="room_desc_home">
-                        <h3>Habitaci&oacute;n individual</h3>
-                        <p>
-                             Cuando estes de paso, y deseas descansar, ven y si&eacute;ntete en casa con nuestro servicio.
+                        <h3 class="jmy_web_div" data-page="inicio" id="individual" data-editor="no">
+    <?php $this->pnt('individual','Habitaci&oacute;n individual '); ?>
+</h3>
+                        <p class="jmy_web_div" data-page="inicio" id="individual1" data-editor="no">
+                            <?php $this->pnt('individual1','Cuando estes de paso, y deseas descansar, ven y si&eacute;ntete en casa con nuestro servicio. '); ?>
+                             
                         </p>
                         <ul>
                             <li>
@@ -177,10 +180,13 @@
             </div>
             <div class="col-md-4 col-md-offset-1 col-md-pull-6">
                 <div class="room_desc_home">
-                    <h3>Doble Habitaci&oacute;n </h3>
-                    <p>
-                        Nuestros diferentes servicios estan pensados, para cualquier idea que tengas en mente.
-                    </p>
+                     <h3 class="jmy_web_div" data-page="inicio" id="doble" data-editor="no">
+    <?php $this->pnt('doble','Doble habitaci&oacute;n '); ?>
+</h3>
+                    <p class="jmy_web_div" data-page="inicio" id="doble2" data-editor="no">
+                            <?php $this->pnt('doble2','Nuestros diferentes servicios estan pensados, para cualquier idea que tengas en mente. '); ?>
+                             
+                        </p>
                     <ul>
                         <li>
                         <div class="tooltip_styled tooltip-effect-4">
@@ -236,9 +242,12 @@
                 </div>
                 <div class="col-md-4 col-md-offset-1">
                     <div class="room_desc_home">
-                        <h3> En grupo</h3>
-                        <p>
-                             Esta habitación es ideal para un grupo de amigos, ánimate y ven a visitarnos.
+                         <h3 class="jmy_web_div" data-page="inicio" id="engrupo" data-editor="no">
+    <?php $this->pnt('engrupo','En Grupo '); ?>
+</h3>
+                        <p class="jmy_web_div" data-page="inicio" id="engrupo1" data-editor="no">
+                            <?php $this->pnt('engrupo1','Esta habitación es ideal para un grupo de amigos, ánimate y ven a visitarnos.. '); ?>
+                             
                         </p>
                         <ul>
                             <li>
