@@ -14,7 +14,7 @@
     <div class="container_styled_1">
         <div class="container margin_60">
 
-    <h2 class=""jmy_web_div" data-page="contacto" id="BienvenidoH" data-editor= " no ">
+    <h2 class="jmy_web_div" data-page="contacto" id="BienvenidoH" data-editor= " no ">
 		<?php $this->pnt('BienvenidoH','<em></em>Bienvenido a Hotel-Restaurante'); ?>
 	</h2>
     	<div class="row add_top_20">        
