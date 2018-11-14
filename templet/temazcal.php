@@ -27,8 +27,13 @@
                             
                         </h3> 
                         <p class="jmy_web_div" data-page="TEMAZCAL" id="des_temazcal" data-editor="no">
-                <?php $this->pnt('des_temazcal','Disfruta del servicio de Temazcal  y consiéntete como  te lo mereces.</br></br>
-                        Aparta tu lugar para que tu estancia sea agradable y completa en Hotel Pozo Viejo. </br></br></br>'); ?>
+                         <?php $this->pnt('des_temazcal','Disfruta del servicio de Temazcal  y consiéntete como  te lo mereces.
+                        '); ?>
+                        </p>
+                       <p class="jmy_web_div" data-page="TEMAZCAL" id="des2_temazcal" data-editor="no">
+                       <?php $this->pnt('des2_temazcal','
+                        Aparta tu lugar para que tu estancia sea agradable y completa en Hotel Pozo Viejo. '); ?>
+                        </p>
                         
                        <h4 class="jmy_web_div" data-page="TEMAZCAL" id="duracion_temazcal" data-editor="no">
                 <?php $this->pnt('duracion_temazcal','Sesión de 1 hr (incluye)'); ?> 
