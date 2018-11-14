@@ -3,7 +3,9 @@
     <!-- SubHeader =============================================== -->
     <section class="parallax-window" id="short" data-parallax="scroll" data-image-src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/sub_header_short_2.jpg" data-natural-width="1400" data-natural-height="350">
         <div id="subheader">
-            <h1>Contacto</h1>
+            <h1 class = "jmy_web_div" data-page="contacto" id="contactnos" data-editor= " no ">
+            <?php $this->pnt('contactnos','Contactanos'); ?></h1>
+
 		</div><!-- End subheader -->
     </section><!-- End section -->
     <!-- End SubHeader ============================================ -->
@@ -11,7 +13,10 @@
         
     <div class="container_styled_1">
         <div class="container margin_60">
-    <h2 class="main_title"><em></em>Bienvenido a Hotel-Restaurante Pozo Viejo <span></span></h2>
+
+    <h2 class=""jmy_web_div" data-page="contacto" id="BienvenidoH" data-editor= " no ">
+		<?php $this->pnt('BienvenidoH','<em></em>Bienvenido a Hotel-Restaurante'); ?>
+	</h2>
     	<div class="row add_top_20">        
         <div class="col-md-4">
             	<div class="box_style_1">
