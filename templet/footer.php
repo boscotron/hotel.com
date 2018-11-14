@@ -7,42 +7,42 @@
 					<ul id="contact_details_footer">
           				<li class="jmy_web_div" data-page="footer" id="direccion" data-editor="no">
                         <?php $this->pnt('direccion','Federal Zaragoza Zacapoaxtla Km 5 s/n
-                        Zacapoaxtla, Puebla, Mexico'); ?></li>
+                        Zacapoaxtla, Puebla, Mexico' ,["secundario"=>"footer"]); ?></li>
                         <li><a href="<?php echo RUTA_ACTUAL; ?>" class="jmy_web_div" data-page="footer" id="telefono" data-editor="no">
-                        <?php $this->pnt('telefono','01 233 317 2225'); ?></a> / <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#0" class="jmy_web_div" data-page="footer" id="direccion_url" data-editor="no">
-                        <?php $this->pnt('direccion_url','info@hotelpozoviejo.com.mx'); ?></a></li>
+                        <?php $this->pnt('telefono','01 233 317 2225' ,["secundario"=>"footer"]); ?></a> / <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#0" class="jmy_web_div" data-page="footer" id="direccion_url" data-editor="no">
+                        <?php $this->pnt('direccion_url','info@hotelpozoviejo.com.mx' ,["secundario"=>"footer"]); ?></a></li>
                     </ul>  
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <h3 class="jmy_web_div" data-page="footer" id="texto_conocenos" data-editor="no">
-                        <?php $this->pnt('texto_conocenos','Conocenos '); ?>
+                        <?php $this->pnt('texto_conocenos','Conocenos ',["secundario"=>"footer"]); ?>
                             </h3>
                     <ul>
                         <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="jmy_web_div" data-page="footer" id="texto_nosotros" data-editor="no">
-                        <?php $this->pnt('texto_nosotros','Nosotros '); ?></a></li>
+                        <?php $this->pnt('texto_nosotros','Nosotros ',["secundario"=>"footer"]); ?></a></li>
                         <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="jmy_web_div" data-page="footer" id="texto_Habitaciones" data-editor="no">
-                        <?php $this->pnt('texto_Habitaciones','Habitaciones '); ?></a></li>
+                        <?php $this->pnt('texto_Habitaciones','Habitaciones ',["secundario"=>"footer"]); ?></a></li>
                         <li><a href="<?php echo RUTA_ACTUAL; ?>contacto" class="jmy_web_div" data-page="footer" id="texto_Contacto" data-editor="no">
-                        <?php $this->pnt('texto_Contacto','Contacto '); ?></a></li>
+                        <?php $this->pnt('texto_Contacto','Contacto ',["secundario"=>"footer"]); ?></a></li>
                     </ul>
                 </div>                
                 <div class="col-md-3 col-sm-4">
                     <h3 class="jmy_web_div" data-page="footer" id="texto_reservas" data-editor="no">
-                        <?php $this->pnt('texto_reservas','Pozo Viejo Acepta reservas '); ?></h3>
+                        <?php $this->pnt('texto_reservas','Pozo Viejo Acepta reservas ',["secundario"=>"footer"]); ?></h3>
                    <ul>
                         <li><a href="<?php echo RUTA_ACTUAL; ?>#" class="jmy_web_div" data-page="footer" id="texto_1" data-editor="no">
-                        <?php $this->pnt('texto_1','Ideal para grupos '); ?></a></li>
+                        <?php $this->pnt('texto_1','Ideal para grupos ',["secundario"=>"footer"]); ?></a></li>
                         <li><a href="<?php echo RUTA_ACTUAL; ?>#" class="jmy_web_div" data-page="footer" id="texto_2" data-editor="no">
-                        <?php $this->pnt('texto_2','Ideal para niños '); ?></a></li>
+                        <?php $this->pnt('texto_2','Ideal para niños ',["secundario"=>"footer"]); ?></a></li>
                         <li><a href="<?php echo RUTA_ACTUAL; ?>#" class="jmy_web_div" data-page="footer" id="texto_3" data-editor="no">
-                        <?php $this->pnt('texto_3','Terraza o mesas al aire libre '); ?></a></li>
+                        <?php $this->pnt('texto_3','Terraza o mesas al aire libre ',["secundario"=>"footer"]); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-4"  id="newsletter">
                     <h3 class="jmy_web_div" data-page="footer" id="texto_siguenos" data-editor="no">
-                        <?php $this->pnt('texto_siguenos','Siguenos '); ?></h3>
+                        <?php $this->pnt('texto_siguenos','Siguenos ',["secundario"=>"footer"]); ?></h3>
                     <p class="jmy_web_div" data-page="footer" id="texto" data-editor="no">
-                        <?php $this->pnt('texto','Haz tus reservaciones para cualquier evento, nosotros estamos para llevar a cabo la idea que deseas cumplir. '); ?>  </p>
+                        <?php $this->pnt('texto','Haz tus reservaciones para cualquier evento, nosotros estamos para llevar a cabo la idea que deseas cumplir. ',["secundario"=>"footer"]); ?>  </p>
 					<div id="message-newsletter_2"></div>
 						<form method="post" action="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>assets/newsletter.php" name="newsletter_2" id="newsletter_2">
                         <div class="form-group">
