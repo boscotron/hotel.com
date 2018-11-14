@@ -1,4 +1,4 @@
-<?php
+<?php /*
 $session = $jmyWeb->session(); 
 $idUsuario = $session['user']['user_id'];
 $peticion = explode("/",$_GET['peticion']);

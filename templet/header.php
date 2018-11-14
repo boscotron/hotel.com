@@ -78,7 +78,7 @@
 						<a href="<?php echo RUTA_ACTUAL; ?>" class="show-submenu">Pozo Viejo</a>
                     </li>
 					<li>
-						<a href="<?php echo RUTA_ACTUAL; ?>servicio">Servicios</a>
+						<a href="<?php echo RUTA_ACTUAL; ?>serviciohotel">Servicios</a>
 					</li>
 					<?php /*
                      <li class="submenu">
