@@ -75,7 +75,7 @@
                             <div class="tooltip_styled tooltip-effect-4">
                                 <span class="tooltip-item"><i class="icon_set_2_icon-118"></i></span>
                                 <div class="tooltip-content jmy_web_div" data-page="TEMAZCAL" id="regadera_temazcal" data-editor="no">
-                <?php $this->pnt('regadera_temazcal','Regadera'); ?>
+                                    <?php $this->pnt('regadera_temazcal','Regadera'); ?>
                                 </div>
                             </div>
                             </li>
