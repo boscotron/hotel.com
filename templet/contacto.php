@@ -45,56 +45,23 @@
         	<div class="col-md-7 col-md-offset-1">
             
             <div id="message-contact"></div>
-				<form>
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label>Nombre</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Nombre"  placeholder="Ingresa tu Nombre">
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label>Apellido</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Apellido" placeholder="Ingresa Apellido">
-							</div>
-						</div>
-					</div>
-					<!-- End row -->
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label>Email</label>
-								<input type="email" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Email">
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label>Teléfono</label>
-								<input type="text" class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Telefono" placeholder="Ingresa Telefono">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label>Mensaje</label>
-								<textarea class=" jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Ingresa Mensaje" style="height:150px;"></textarea>
-							</div>
-						</div>
-					</div>
-					<div class="row add_bottom_30">
-						<div class="col-md-6">
-                        	<!-- <div class="form-group">
-                                <label>Eres Humano</label>
-                                <input type="text" id="verify_contact" class=" add_bottom_30" placeholder="Ingresa el total de: 3 + 1 =">
-                            </div> -->
-
-							<button class=" jmy_web_contacto_enviar" id="contacto_inicio" data-formulario="contacto_inicio">Enviar</button>
-
-						</div>
-					</div>
-				</form>               
+			<form class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Nombre" placeholder="Nombre" >
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Email" placeholder="Email " required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Teléfono" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <textarea data-delay="500" class="jmy_web_contacto" data-formulario="contacto_contacto" data-campo="Mensaje" placeholder="Mensaje"></textarea>
+                    <button class="btn btn-primary jmy_web_contacto_enviar" id="contacto_inicio" data-formulario="contacto_inicio" data-text="Enviar" >Enviar</button>
+                </form>   
             </div><!-- End col-md-8 -->    
             
              
