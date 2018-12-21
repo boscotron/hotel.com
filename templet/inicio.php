@@ -18,7 +18,7 @@
                 <div class="col-lg-12">
                     <figure class="room_pic">  
 					
-					
+				<?php /*	 
 					
         <div class="col-lg-12">  
             <div id="sub_content"> 
@@ -68,7 +68,7 @@
                     </form>
                 </div><!-- End book_container -->
             </div><!-- End sub_content -->
-        </div><!-- End subheader -->
+        </div><!-- End subheader -->*/ ?>
 					
 					
 					</figure>

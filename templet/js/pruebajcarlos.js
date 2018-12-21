@@ -1,6 +1,17 @@
 $(document).ready(function () {
 console.log("desde js");
-            
+
+let cuantos = 0;
+/* cuantos = $(':input').filter(':radio').length; */
+/* 
+alert("tengo input " + $("input[name='nombre']","#miId").length + " inputs"); */
+/* $(':input').filter(':radio').addClass('nueva').end().val(2); */
+
+$(':input').filter(':radio').end().length;
+/*alert("tienes " + cuantos + " input de radio");*/
+alert("hola soy el Id = " + $("ul #dos").prev().attr('id') + " XD");
+
+  /*           
 $('#enviar').click(function () {
     var nombre = document.getElementById('nombre').value;
     var email = document.getElementById('email').value;
@@ -11,7 +22,7 @@ $('#enviar').click(function () {
 +mensaje;
 
 $.ajax({
-    url:'back.php',
+    url:location.origin + '/templet/back.php',
     type:'POST',
     data:ruta,
 })
@@ -20,7 +31,7 @@ $.ajax({
 })
 
 });
-
+ */
 
 });
 

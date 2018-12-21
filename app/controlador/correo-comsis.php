@@ -1,4 +1,9 @@
 <?php
+$nombre = $_POST['nombre'];
+$email = $_POST['email'];
+$telefono = $_POST['telefono'];
+$mensaje = $_POST['mensaje'];
+
 function correo_comsis($d=[]){
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, 'https://comsis.mx/api/oka/mail/ws.php');
@@ -15,16 +20,16 @@ function correo_comsis($d=[]){
 $out = correo_comsis([
     "user"=>"CorreosJuan", 
     "password"=>"0lakace", 
-    "nombre"=>"Juanito", 
-    "email"=>"jm@comsis.mx", 
-    "telefono"=>"5529056979", 
-    "asunto"=>"Hola k ace ".date("Y-m-d"), 
-    "mensaje"=>"TEST", 
-    "destinatario"=>"juanmtz1988@gmail.com", 
+    "nombre"=>$nombre, 
+    "email"=>$email, 
+    "telefono"=>$telefono, 
+    "asunto"=>"Nuevo contacto Pozo Viejo ".date("Y-m-d"), 
+    "mensaje"=>$mensaje, 
+    "destinatario"=>"reservacionespozoviejo@gmail.com", /* reservacionespozoviejo@gmail.com */
     "smtpHost"=>"mail.comsis.mx", 
-    "smtpUsuario"=>"no-reply@comsis.mx", 
-    "smtpClave"=>"", 
+    "smtpUsuario"=>"no_contestar@comsis.mx", 
+    "smtpClave"=>"JGK3NzrmMmvj", 
     "port"=>"25"
 ]);
-$jmyWeb ->pre(['p'=>$out,'t'=>'Estado correo']);
+
 ?>

@@ -18,6 +18,6 @@
 </div>
 <h1 id="jc">Hola Mundo</h1>
 <p class="cambio">Como va todo</p> 
-
+<!-- <script src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>js/adminhotel.js"></script> -->
 </body>
 </html>

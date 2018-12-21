@@ -1,6 +1,28 @@
 /* 
  * 	Default theme - Owl Carousel CSS File
  */
+form{
+  width: 50%;
+  margin: 0 auto;
+}
+input,textarea[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="button"]{
+  padding: 10px;
+}
+
+button#enviar {
+  background-color: #337ab7;
+  color: white;
+  font-size: 140%;
+  border: #337ab7;
+  border-radius: 5px;
+}
+
 .owl-theme .owl-nav {
   -webkit-tap-highlight-color: transparent; position:absolute; top:50%; width:100%; margin-top:-50px; }
   

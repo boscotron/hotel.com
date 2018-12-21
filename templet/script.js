@@ -1,36 +1,10 @@
-$(document).ready(function () {
 console.log("desde js");
-            
-$('#enviar').click(function () {
-    var nombre = document.getElementById('nombre').value;
-    var email = document.getElementById('email').value;
-    var telefono = document.getElementById('telefono').value;
-    var mensaje = document.getElementById('mensaje').value;
 
-    var ruta = "&nom="+nombre+"&ema="+email+"&tel="+telefono+"&men="
-+mensaje;
-
-$.ajax({
-    url:'back.php',
-    type:'POST',
-    data:ruta,
-})
-.done(function (res) {
-    $("#respuesta").html(res)
-})
-
-});
-
-
-});
-
-
-/* 
 function enviar_datos_ajax(){
-    let n=document.getElementById('nombre').value
-    let ema=document.getElementById('email').value
-    let tel=document.getElementById('telefono').value
-    let men=document.getElementById('mensaje').value
+    var n=document.getElementById('nombre').value
+    var ema=document.getElementById('email').value
+    var tel=document.getElementById('telefono').value
+    var men=document.getElementById('mensaje').value
 
     var url= "procesar_datos.php";
 
@@ -44,12 +18,10 @@ function enviar_datos_ajax(){
             $("#mostrardatos").html(datos);
         }
 
-    }
-    )
+    })
 }
-});
- */
-/* function objetoAjax() {
+
+/*function objetoAjax() {
     var xmlhttp=false;
     try{
         xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
@@ -111,4 +83,4 @@ function sumarNumeros(a, b) {
     
  };
  suma();
- */
+ 
