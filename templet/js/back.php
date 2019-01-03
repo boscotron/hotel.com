@@ -1,9 +1,9 @@
 <?php
 echo "Desde php proceso<br><br>";
-$nombre = $_POST['nom'];
-$email = $_POST['ema'];
-$telefono = $_POST['tel'];
-$mensaje = $_POST['men'];
+$nombre = $_POST['nombre'];
+$email = $_POST['email'];
+$telefono = $_POST['telefono'];
+$mensaje = $_POST['mensaje'];
 
 echo $nombre;
 echo $email;

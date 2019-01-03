@@ -143,7 +143,7 @@
                             <div class="tooltip_styled tooltip-effect-4">
                                 <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                                 <div class="tooltip-content">
-                                    Cama king size
+                                Cama matrimonial 
                                 </div>
                             </div>
                             </li>
@@ -176,7 +176,7 @@
         <div class="row">
             <div class="col-md-5 col-md-offset-1 col-md-push-5">
                   <figure class="room_pic left"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/cama_doble.jpg" alt="" class="img-responsive"></a>
-				  <span class="wow zoomIn"><sup>Desde </sup>$600<small>Por Noche</small></span></figure>
+				  <span class="wow zoomIn"><sup>Desde </sup>$800<small>Por Noche</small></span></figure>
             </div>
             <div class="col-md-4 col-md-offset-1 col-md-pull-6">
                 <div class="room_desc_home">
@@ -192,7 +192,7 @@
                         <div class="tooltip_styled tooltip-effect-4">
                             <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                             <div class="tooltip-content">
-                                Cama King size 
+                                Cama matrimonial 
                             </div>
                         </div>
                         </li>
@@ -238,7 +238,7 @@
         <div class="container margin_60">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1">
-                    <figure class="room_pic"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/varios.jpg" alt="" class="img-responsive"></a><span class="wow zoomIn"><sup>Desde  </sup>$1000<small>Por noche</small></span></figure>
+                    <figure class="room_pic"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/varios.jpg" alt="" class="img-responsive"></a><span class="wow zoomIn"><sup> </sup>$1200<small>Por noche</small></span></figure>
                 </div>
                 <div class="col-md-4 col-md-offset-1">
                     <div class="room_desc_home">
@@ -254,7 +254,7 @@
                             <div class="tooltip_styled tooltip-effect-4">
                                 <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                                 <div class="tooltip-content">
-                                    King size bed
+                                Cama matrimonial 
                                 </div>
                             </div>
                             </li>

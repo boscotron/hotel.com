@@ -2,17 +2,18 @@ $(document).ready(function () {
 console.log("desde js");
             
 $('#enviar').click(function () {
+    console.log("desde funcion");
     var nombre = document.getElementById('nombre').value;
     var email = document.getElementById('email').value;
     var telefono = document.getElementById('telefono').value;
     var mensaje = document.getElementById('mensaje').value;
 
-    var ruta = "&nom="+nombre+"&ema="+email+"&tel="+telefono+"&men="
+    var ruta = "&nombre="+nombre+"&mensaje="+email+"&telefono="+telefono+"&mensaje="
 +mensaje;
 
 $.ajax({
-    url:'back.php',
-    type:'POST',
+    url:location.origin + '/back.php',
+    type:'post',
     data:ruta,
 })
 .done(function (res) {

@@ -1,16 +1,24 @@
 $(document).ready(function () {
 console.log("desde js");
 
-let cuantos = 0;
+/* $('body').empty().append('<p> Soy un parrafo</p>').after('<h3>Soy un h3 </h3>'); */
+
+/*$('p').wrap('<div class="envoltura"></div>')*/
+
+/* $(':input').val("Juan"); */
+/* $('body').append('<input type="text" value="soy un valor" />').val(); */
+
+
+/* let cuantos = 0; */
 /* cuantos = $(':input').filter(':radio').length; */
 /* 
 alert("tengo input " + $("input[name='nombre']","#miId").length + " inputs"); */
 /* $(':input').filter(':radio').addClass('nueva').end().val(2); */
-
+/* 
 $(':input').filter(':radio').end().length;
 /*alert("tienes " + cuantos + " input de radio");*/
-alert("hola soy el Id = " + $("ul #dos").prev().attr('id') + " XD");
-
+/*alert("hola soy el Id = " + $("ul #dos").prev().attr('id') + " XD");
+ */
   /*           
 $('#enviar').click(function () {
     var nombre = document.getElementById('nombre').value;
