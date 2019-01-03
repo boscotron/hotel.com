@@ -43,14 +43,14 @@
                         <?php $this->pnt('texto_siguenos','Siguenos ',["secundario"=>"footer"]); ?></h3>
                     <p class="jmy_web_div" data-page="footer" id="texto" data-editor="no">
                         <?php $this->pnt('texto','Haz tus reservaciones para cualquier evento, nosotros estamos para llevar a cabo la idea que deseas cumplir. ',["secundario"=>"footer"]); ?>  </p>
-					<div id="message-newsletter_2"></div>
+					<!-- <div id="message-newsletter_2"></div>
 						<form method="post" action="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>assets/newsletter.php" name="newsletter_2" id="newsletter_2">
                         <div class="form-group">
                             <input name="email_newsletter_2" id="email_newsletter_2"  type="email" value=""  placeholder="email" class="form-control">
                           </div>
                             <input type="submit" value="Suscribirme" class="btn_1 white" id="submit-newsletter_2">
-                    	</form>
-                </div>
+                    	</form> 
+                </div> -->
             </div><!-- End row -->
             <div class="row">
                 <div class="col-md-12">
