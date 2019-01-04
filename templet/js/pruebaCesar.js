@@ -12,8 +12,6 @@ $('#enviar').click(function(){
 
 var ruta = "&nom="+nombre+"&ema="+email+"&tel="+telefono+"&men="+mensaje;
 
-
-
 $.ajax({
 	url:location.origin + '/templet/back.php',
 	type:'POST',
@@ -24,10 +22,15 @@ $.ajax({
 	$("#respuesta").html(res)
 })
 
+});
 
 
+$("#borrar").click(function(){
+	$("#respuesta").empty();
+console.log("Funcion borrar");
 
 });
+
 });
 
 

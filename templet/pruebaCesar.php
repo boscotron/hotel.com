@@ -20,6 +20,7 @@
 <body>
 
 <br><br><br><br><br><br><br><br>
+
 <form method="post" id="formulario">
 	<div class="col-md-6">
 	<input type="text" name="nombre" type="text" id="nombre" placeholder="Nombre">
@@ -42,9 +43,10 @@
 	</select>
 
 	<button type="button" id="enviar"> enviar</button>
+
 	<div id="respuesta"></div>
 
-
+	<input type="button" id="borrar" value="borrar">
 
 </form>
 	
