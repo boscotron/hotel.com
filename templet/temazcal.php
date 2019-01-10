@@ -16,7 +16,7 @@
                     <figure class="room_pic">
                         <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/slider/temazcal.jpg" alt="" class="img-responsive"></a>
                         <span class="wow zoomIn jmy_web_div" data-page="TEMAZCAL" id="costo_sesion_temazcal" data-editor="no">
-                        <?php $this->pnt('costo_sesion_temazcal',' <sup>  </sup>$350<small>Por Sesión</small>'); ?>
+                        <?php $this->pnt('costo_sesion_temazcal',' <sup>  </sup>$350<small>Por persona</small>'); ?>
                        </span></figure>
                     
                 </div>
