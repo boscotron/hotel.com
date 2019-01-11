@@ -1,76 +1,4 @@
-
 $(document).ready(function(){
-
-	console.log("prueba js");
-
-$('#enviar').click(function(){
-
-	var nombre = document.getElementById('nombre').value;
-	var email = document.getElementById('email').value;
-	var telefono = document.getElementById('telefono').value;
-	var mensaje = document.getElementById('mensaje').value;
-
-var ruta = "&nom="+nombre+"&ema="+email+"&tel="+telefono+"&men="+mensaje;
-
-$.ajax({
-	url:location.origin + '/templet/back.php',
-	type:'POST',
-	data: ruta,
-})
-
-.done(function(res){
-	$("#respuesta").html(res)
-})
-
-});
-
-
-$("#borrar").click(function(){
-	$("#respuesta").empty();
-console.log("Funcion borrar");
-
-});
-
-
-$("#sumar").click(function(){
-var nu1 = document.getElementById('nu1').value;
-var nu2 = document.getElementById('nu2').value;
-
-console.log(nu1);
-
-var nu1 = Number (nu1);
-var nu2 = Number (nu2);
-
-//var suma = parseInt(nu1) + parseInt(nu2);
-var resultado = nu1 + nu2;
-//var resultado;
-//alert("suma" + suma);
-document.getElementById('resultado').value=resultado;//dara el resultado en ei input resultado
-
-//$("#resultado").append("la suma de   "+ nu1 + " + " + nu2 + " es " + resultado);
-
-console.log("Funcion sumar");
-
-//.parseInt()
-
-});
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
   $("#hsuma").click(function(){
     $("#Suma").fadeIn();
 
@@ -120,8 +48,11 @@ console.log("Funcion restar");
 
 
 $("#hmulti").click(function(){
-    $("#Multi").fadeIn();   
+    $("#Multi").fadeIn();
+
+    
   });
+
 
 $("#multi").click(function(){
 var numer1 = document.getElementById('numer1').value;		
@@ -138,10 +69,17 @@ var resultad = numer1 * numer2 * numer3;
 document.getElementById('resultad').value=resultad;//dara el resultado en ei input resultado
 console.log("Funcion multiplicación");
 });
-//
+
+
+
+
+
+
+
 var ocultar = $("#ocultar");
 var ocultar1 = $('#ocultar1');
 var ocultar2 = $('#ocultar2');
+
 
   ocultar.click(function() {
     	$("#Suma").hide(1000);
@@ -154,49 +92,7 @@ var ocultar2 = $('#ocultar2');
     	$("#Multi").hide(1000);
   });
 
+
+
+
 });
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*console.log("Hola desde js");
-
-function sumarNumeros(a, b) {
-	
-   let resultado = (a) + (b);     
-   return console.log(resultado);  
-};
-sumarNumeros(5, 20);
-
-function multiplicacion(a , b){
-	let res = a * b;
-	return console.log(res);
-};
-multiplicacion(5, 7);
-
-let prueba = function (a, b){
-	let resultado = (a) + (b);     
-   return console.log(resultado);  
-};
-prueba(6, 16);
-
-let resta = new Function("a", "b","return a-b");
-	
-let resultado = resta(56, 12);
-console.log(resultado);
-
-function suma(){
-
-};
-suma();*/
