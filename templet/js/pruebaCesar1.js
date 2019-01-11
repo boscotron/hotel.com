@@ -48,11 +48,8 @@ console.log("Funcion restar");
 
 
 $("#hmulti").click(function(){
-    $("#Multi").fadeIn();
-
-    
+    $("#Multi").fadeIn();   
   });
-
 
 $("#multi").click(function(){
 var numer1 = document.getElementById('numer1').value;		
@@ -69,17 +66,10 @@ var resultad = numer1 * numer2 * numer3;
 document.getElementById('resultad').value=resultad;//dara el resultado en ei input resultado
 console.log("Funcion multiplicación");
 });
-
-
-
-
-
-
-
+//
 var ocultar = $("#ocultar");
 var ocultar1 = $('#ocultar1');
 var ocultar2 = $('#ocultar2');
-
 
   ocultar.click(function() {
     	$("#Suma").hide(1000);
