@@ -1,32 +1,55 @@
 $(document).ready(function () {
 console.log("desde js");
-            
+ /*            
 $('#enviar').click(function () {
     console.log("desde funcion");
+    alert("tengo input " + $("input[name='nombre']","#nombre").length + " inputs");
+
+    
     var nombre = document.getElementById('nombre').value;
     var email = document.getElementById('email').value;
     var telefono = document.getElementById('telefono').value;
     var mensaje = document.getElementById('mensaje').value;
-
-    var ruta = "&nombre="+nombre+"&mensaje="+email+"&telefono="+telefono+"&mensaje="
+    
+   
+    var ruta = "&nom="+nombre+"&ema="+email+"&tel="+telefono+"&men="
 +mensaje;
 
-$.ajax({
-    url:location.origin + '/back.php',
-    type:'post',
-    data:ruta,
-})
-.done(function (res) {
-    $("#respuesta").html(res)
-})
+    $.ajax({
+        url:location.origin + '/templet/back.php',
+        type:'post',
+        data:ruta,
+    })
+    .done(function (res) {
+        $("#respuesta").html(res)
+    })
 
 });
+
+$('#borrar').click(function () {
+    $('#respuesta').empty();
+
+});
+
+
+$('#sumar').click(function () {
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    $("input[name='nombre']").val("Juan");
+    var num1 = Number(num1);
+    var num2 = Number(num2);
+    var resultado = num1+num2;   
+    $('#respuesta').wrap("<div class='row justify-content-center alert alert-success' role='alert'><div class='col-4'> </div></div>").append("<br>La suma de "+num1+" + "+num2+" es "+resultado);
+
+});
+ */
 
 
 });
 
 
 /* 
+.wrap("<div class='row justify-content-center alert alert-primary' role='alert'><div class='col-4'> </div></div>")
 function enviar_datos_ajax(){
     let n=document.getElementById('nombre').value
     let ema=document.getElementById('email').value

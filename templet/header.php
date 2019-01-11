@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/apple-touch-icon-144x144-precomposed.png">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- BASE CSS -->
     <link href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/base.css" rel="stylesheet">
     <!-- Bootstrap -->

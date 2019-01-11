@@ -135,7 +135,7 @@
     <?php $this->pnt('individual','Habitaci&oacute;n individual '); ?>
 </h3>
                         <p class="jmy_web_div" data-page="inicio" id="individual1" data-editor="no">
-                            <?php $this->pnt('individual1','Cuando estes de paso, y deseas descansar, ven y si&eacute;ntete en casa con nuestro servicio. '); ?>
+                            <?php $this->pnt('individual1','Cuando estes de paso, y deseas descansar, ven y si&eacute;ntete en casa con nuestro servicio.'); ?>
                              
                         </p>
                         <ul>
@@ -143,7 +143,7 @@
                             <div class="tooltip_styled tooltip-effect-4">
                                 <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                                 <div class="tooltip-content">
-                                Cama matrimonial 
+                                1 Cama matrimonial 
                                 </div>
                             </div>
                             </li>
@@ -192,7 +192,7 @@
                         <div class="tooltip_styled tooltip-effect-4">
                             <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                             <div class="tooltip-content">
-                                Cama matrimonial 
+                               2 Camas matrimoniales 
                             </div>
                         </div>
                         </li>
@@ -254,7 +254,7 @@
                             <div class="tooltip_styled tooltip-effect-4">
                                 <span class="tooltip-item"><i class="icon_set_2_icon-104"></i></span>
                                 <div class="tooltip-content">
-                                Cama matrimonial 
+                                4 Camas matrimoniales 
                                 </div>
                             </div>
                             </li>
