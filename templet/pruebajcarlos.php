@@ -1,95 +1,101 @@
+<!-- SubHeader =============================================== -->
+<section class="parallax-window" id="short" data-parallax="scroll" data-image-src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/sub_header_short_2.jpg" data-natural-width="1400" data-natural-height="350">
+    <div id="subheader">
+        <h1 class = "jmy_web_div" data-page="contacto" id="contactnos" data-editor= " no ">
+        <?php $this->pnt('contactnos','Contactanos'); ?></h1>
 
-    
-    <!-- SubHeader =============================================== -->
-    <section class="parallax-window" id="short" data-parallax="scroll" data-image-src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>img/sub_header_short_2.jpg" data-natural-width="1400" data-natural-height="350">
-        <div id="subheader">
-            <h1 class = "jmy_web_div" data-page="contacto" id="contactnos" data-editor= " no ">
-            <?php $this->pnt('contactnos','Contactanos'); ?></h1>
+    </div><!-- End subheader -->
+</section><!-- End section -->
+<!-- End SubHeader ============================================ -->
 
-		</div><!-- End subheader -->
-    </section><!-- End section -->
-    <!-- End SubHeader ============================================ -->
-	
-        
-    <div class="container_styled_1">
-        <div class="container margin_60">
-
-    <h2 class="jmy_web_div" data-page="contacto" id="BienvenidoH" data-editor= " no ">
-		<?php $this->pnt('BienvenidoH','<em></em>Bienvenido a Hotel-Restaurante'); ?>
-	</h2>
-    	<div class="row add_top_20">        
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-4"></div>        
         <div class="col-md-4">
-            	<div class="box_style_1">
-                <div class="box_contact">
-                    <i class="icon_set_1_icon-41"></i>
-                    <h4>Dirección</h4>
-                    <p>Federal Zaragoza Zacapoaxtla Km 5 s/n<br>Zacapoaxtla, Puebla, Mexico<br>
-					Route de Sablet 1023, Marseille</p>
+            <h2 class="jmy_web_div text-center" data-page="contacto" id="BienvenidoH" data-editor= " no ">
+                <?php $this->pnt('BienvenidoH','<em></em>Bienvenido a Hotel-Restaurante'); ?>
+            </h2>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label>Email</label>
+                         <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
-                    <div class="box_contact">
-            	<i class="icon_set_1_icon-37"></i>
-                <h4>Obtener Ruta</h4>
-                
-            </div>
-            </div>
-            </div>   
-            
-        	<div class="col-md-7 col-md-offset-1">
-            
-            <div id="message-contact"></div>
-			
-            <div id="ejemplos">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text"  name="nombre" type="text" id="nombre" placeholder="Nombre" >
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text"  name="email" type="text" id="email" placeholder="Email " required>
-                        </div>
+                    <div class="form-group col-md-6">
+                        <label >Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="nombre">
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text"  name="telefono" type="text" id="telefono" placeholder="Teléfono">
-                        </div>
-                    </div>
-                    <textarea data-delay="500"  name="mensaje" type="text" id="mensaje" placeholder="Mensaje"></textarea>
-
-                    <input  type="button" id="enviar" value="Buscar" >
-                </form>
-
-                <form id="miId">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text"  name="nombre" type="text" id="nombre" placeholder="Nombre" >
-                        </div>
-                        <div class="col-md-6">
-                            <input type="radio"  name="email" type="text" id="email" placeholder="Email " required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text"  name="telefono" type="text" id="telefono" placeholder="Teléfono">
-                        </div>
-                    </div>
-
-                    <input  type="button" id="enviar" value="Buscar" >
-                </form>
-                <ul>
-                    <li id="uno">uno</li>
-                    <li id="dos">dos</li>
-                    <li id="tres">tres</li>
-                    <li id="cuatro">cuatro</li>
-                </ul>
-                
-            </div>
-
-                <div id="respuesta">
                 </div>
-
-            </div><!-- End col-md-8 -->    
+                <div class="form-group">
+                    <label >Direccion</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="1234 Main St">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label >Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class=" py-2">Estado</label>
+                        <select id="selecciono" class="form-control">
+                            <option selected>Selecciona..</option>
+                            <option value="uno">Uno</option>
+                            <option value="dos">dos</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <button type="button" id="enviar" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-3" >
             
-             
-        </div><!-- End row -->
-    </div><!-- End Container --> </div><!-- End Container -->
-	<hr>
+        </div>
+        <div class="col-md-6" >
+            <div id="respuesta" > </div>
+            <div id="mostrardatos"></div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+	
+ <!--  <form id="miId">
+                <div class="row form-group">
+                    <div class="col-md-6">
+                        <input type="text"  name="habitacion" type="text" id="habitacion" placeholder="habitacion" >
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text"  name="personas" type="text" id="personas" placeholder="personas " required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-6">
+                        <input type="text"  name="familia" type="text" id="familia" placeholder="familia">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group col-md-12">
+                            <select id="inputState" class="form-control">
+                                <option selected>Selecciona...</option>
+                                <option value="uno" >uno</option>
+                                <option value="dos" >dos</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                    </div>
+                </div>
+                <input  type="button" id="enviar" value="Enviar" >
+            </form> -->

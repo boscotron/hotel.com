@@ -1,16 +1,36 @@
-$(document).ready(function () {
+
+
+
+/* $(document).ready(function () {
             
    
-    $('#enviar').click(
-        function () {
-        alert("me dieron click " );
-    
-       
+    $('#enviar').click(function () {
 
-
-    });
+        console.log("hola desde funcion");
+        
+            let nombre=document.getElementById('nombre').value
+            let email=document.getElementById('email').value
+            let telefono=document.getElementById('telefono').value
+            let mensaje=document.getElementById('mensaje').value
+        
+            
+        
+            $.ajax({
+        
+                type:"post",
+                url: location.origin + '/templet/back2.php',
+                data:{nombre:nombre, email:email,telefono:telefono, mensaje:mensaje},
+        
+                success:function(datos){
+                    $("#respuesta").html(datos);
+                }
+        
+            }
+            )
+        
+        });
  
-});
+}); */
 
 
 /* 

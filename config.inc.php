@@ -37,7 +37,7 @@ define(	"DB_HO","localhost"); //servidor
 define(	"DB_US","root"); //usuario
 define(	"DB_PA",""); //contrase�a
 define(	"DB_DB","hotel"); //Base de datos
-define(	"TABLAS_EXTRAS","agendarcita,perfil,servicio,personal"); //Base de datos
+define(	"TABLAS_EXTRAS","agendarcita,perfil,servicio,personal,pruebajc"); //Base de datos
 define(	"TABLA_USUARIOS","clientes"); //Base de datos
 
 

@@ -6,9 +6,9 @@ $out = $jmy->ver([
 			//"ID_F"=>'blog'
 		]);
 $jmyWeb->cargar(["pagina"=>"inicio"]);
-
-$jmyWeb->cargar_js(["url"=>"../app/js/jmy/contacto.js"]); // carga de funciones de cotnacto
-
+//$jmyWeb->cargar_js(["url"=>"../app/js/jmy/contacto.js"]); // carga de funciones de cotnacto
+$jmyWeb->cargar_js(["url"=>"/js/contacto.js"]); // carga de funciones de cotnacto
+$jmyWeb ->cargar_js(["url"=>$jmyWeb ->url_templet(["return"=>true])."js/contacto.js"]);
 $jmyWeb ->cargar_vista(["url"=>"inicio.php","data"=>["blog"=>$out]]);
 
 ?>

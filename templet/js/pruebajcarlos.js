@@ -1,5 +1,29 @@
 $(document).ready(function () {
-console.log("desde js");
+
+    $('#enviar').click(function () {
+
+        var email = document.getElementById('email').value;
+        var nombre = document.getElementById('nombre').value;
+        var direccion = document.getElementById('direccion').value;
+        var ciudad = document.getElementById('ciudad').value;
+        var selecciono = document.getElementById('selecciono').value;
+
+
+       let ruta = "&email="+email+"&nombre="+nombre+"&direccion="+direccion+"&ciudad="+ciudad+"&selecciono="+selecciono;
+
+       $.ajax({
+        url:location.origin + '/templet/back.php',
+        type:'post',
+        data: ruta,
+         })    
+        .done(function(res){
+        $("#respuesta").html(res)
+        })
+    
+    }); 
+
+});        
+/* $('#miId').serialize() {habitacion:habitacion,personas:personas, familia:familia} ,*/
 
 /* $('body').empty().append('<p> Soy un parrafo</p>').after('<h3>Soy un h3 </h3>'); */
 
@@ -41,7 +65,7 @@ $.ajax({
 });
  */
 
-});
+
 
 
 /* 

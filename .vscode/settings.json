@@ -1,0 +1,42 @@
+{
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "bracketPairColorizer.scopeLineRelativePosition": false,
+    "editor.renderLineHighlight": "all",
+    
+      "highlight-matching-tag.styles": {
+        "opening": {
+          "left": {
+            "underline": "white"
+          },
+          "right": {
+            "surround": "#155FFA"
+          },
+          "name": {
+            "highlight": "rgba(180, 20, 80, 0.3)"
+          }
+        },
+        "closing": {
+          "full": {
+            "custom": {
+              "dark": {
+                "borderWidth": "0 0 1px 0",
+                "borderColor": "white",
+                "borderStyle": "solid",
+                "borderRadius": "4px",
+                "right": "10px"
+              },
+              "light": {
+                "borderWidth": "0 0 1px 0",
+                "borderColor": "brown",
+                "borderStyle": "solid",
+                "borderRadius": "4px",
+                "right": "10px"
+              }
+            }
+          }
+        }
+      },
+      "editor.wordWrap": "on"
+}
