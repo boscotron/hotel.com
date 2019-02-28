@@ -1626,3 +1626,19 @@ hr.more_margin {
   background-color: #df2517  !important;
   color: white;
 }
+
+#contac{
+
+	background-color:green !important ;
+	display:inline-block;
+	margin:0;
+	padding:15px 20px;
+	font-size:32px;
+	color:#fff;
+	text-align: center;
+
+}
+
+#contac1{
+	color: white;
+}
