@@ -22,7 +22,12 @@ $(document).ready(function () {
     
     }); 
 
-});        
+}); 
+
+
+
+
+
 /* $('#miId').serialize() {habitacion:habitacion,personas:personas, familia:familia} ,*/
 
 /* $('body').empty().append('<p> Soy un parrafo</p>').after('<h3>Soy un h3 </h3>'); */
