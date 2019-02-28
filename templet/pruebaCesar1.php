@@ -21,7 +21,101 @@
 	<br><br><br><br><br><br><br><br>
 
 	
-<p>Preciona el boton de la operacion <br>que quieras hacer </p>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="password">Contraseña</label>
+      <input type="password" class="form-control" id="password" placeholder="Contraseña">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="direccion">Dirección</label>
+    <input type="text" class="form-control" id="direccion" placeholder="1234 Calle principal">
+  </div>
+  <div class="form-group">
+    <label for="direccion2">Dirección 2</label>
+    <input type="text" class="form-control" id="direccion2" placeholder="Departmento, estudio, otro">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="ciudad">Ciudad o Pais</label>
+      <select id="ciudad" class="form-control">
+        <option selected>Escojer</option>
+        <option>Mexico</option>
+        <option>Dubai</option>
+        <option>Canada</option>
+        <option>Alemania</option>
+        <option>España</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="estado">Estado</label>
+      <select id="estado" class="form-control">
+        <option selected>Escojer</option>
+        <option>Monterrey</option>
+        <option>Puebla</option>
+        <option>Mexico</option>
+        <option>Guadalajara</option>
+        <option>Cancun</option>
+      </select>
+    </div>
+    
+  </div>
+
+<br><br>
+	
+	<h1>Pon tu numero a traducir</h1>
+    <input type="text" onkeyup="mostrarNumero(this)"><br>
+    <p> tu numero en letra es:</p>
+    <div id="mostrarAca"></div>
+    <p id="mostrarAca"></p>
+
+  <br><br>
+  
+  <button type="button" class="btn btn-primary" id="enviar">Registrarse</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<p>Preciona el boton de la operacion <br>que quieras hacer </p>
 <button id="hsuma">Click para hacer una suma</button><br><br>
 
 <div id="Suma" style="display:none;" class="col-md-6">
@@ -83,7 +177,7 @@
 
 
 
-<!--<button class="btn btn-warning" id="ocultar3">Ocultar operación</button>-->
+<button class="btn btn-warning" id="ocultar3">Ocultar operación</button>-->
 
 </body>
 </html>
